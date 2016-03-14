@@ -59,7 +59,7 @@ public class Trie {
 			if(currentNode != null) {
 				
 				
-				currentNode = currentNode.dictionary.put(i, new Trie());
+				currentNode = currentNode.dictionary.get(i);
 				
 			} else {
 				
